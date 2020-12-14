@@ -1,0 +1,26 @@
+{
+  "name": "Ford Pass",
+  "version": "0.1",
+  "slug": "ford_pass",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "Publishes Ford Pass Values to MQTT",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "fordpassuser": null,
+    "fordpasspassword": null,
+    "fordpassvin": null,
+    "mqtthost": null,
+    "mqttuser": null,
+    "mqttpassword": null
+  },
+  "schema": {
+    "fordpassuser": "str",
+    "fordpasspassword": "str",
+    "fordpassvin": "str",
+    "mqtthost": "str",
+    "mqttuser": "str",
+    "mqttpassword": "str"
+  },
+  "image": "hub/{arch}-ford-pass"
+}
