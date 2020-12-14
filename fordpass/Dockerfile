@@ -15,6 +15,9 @@ RUN pip install -U pip
 RUN pip3 install -U pip
 RUN pip install -U virtualenv
 
+RUN pip3 install -U requests
+
+
 COPY fordpass.py /
 COPY run.sh /
 RUN chmod a+x /run.sh
