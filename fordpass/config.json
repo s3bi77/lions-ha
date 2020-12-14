@@ -21,6 +21,5 @@
     "mqtthost": "str",
     "mqttuser": "str",
     "mqttpassword": "str"
-  },
-  "image": "s3bi77/{arch}-ford-pass"
+  }
 }
