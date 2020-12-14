@@ -7,7 +7,10 @@ ARG BUILD_VERSION
 LABEL maintainer "SL <admin@loewe-web.com>"
 
 
-COPY fordpass.py /fordpass.py
-COPY run.sh /run.sh
+COPY fordpass.py /
+COPY run.sh /
+RUN chmod a+x /run.sh
+RUN chmod a+x /fordpass.py
 
-ENTRYPOINT ["/run.sh"]
+
+CMD ["/run.sh"]
