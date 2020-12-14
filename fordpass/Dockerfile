@@ -7,7 +7,12 @@ ENV LANG C.UTF-8
 LABEL maintainer "SL <admin@loewe-web.com>"
 
 RUN apk add --no-cache \
-    	jq
+    	jq \
+        py-pip \
+	python \
+	python-dev \
+	python3 \
+	python3-dev
 
 
 COPY fordpass.py /
