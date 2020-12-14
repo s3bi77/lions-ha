@@ -19,4 +19,4 @@ export mqtthost="${mqtthost}"
 export mqttuser="${mqttuser}"
 export mqttpassword="${mqttpassword}"
 
-exec python3 /web_streaming.py
+exec python3 /fordpass.py

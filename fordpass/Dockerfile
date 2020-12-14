@@ -1,8 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
-
-ARG BUILD_ARCH
-ARG BUILD_VERSION
+FROM python:3
 
 LABEL maintainer "SL <admin@loewe-web.com>"
 
