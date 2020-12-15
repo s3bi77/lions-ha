@@ -1,7 +1,5 @@
 import requests
 import os
-import daemon
-import time
 
 
 
