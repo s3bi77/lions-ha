@@ -24,7 +24,7 @@ def run():
     with daemon.DaemonContext():
         do_something()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     print("bluppstart")
     run()
     print("bluppstop")

@@ -17,6 +17,7 @@ RUN pip install -U virtualenv
 
 RUN pip3 install -U requests
 RUN pip3 install -U python-daemon
+RUN pip3 install -U time
 
 
 COPY fordpass.py /
