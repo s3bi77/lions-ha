@@ -1,6 +1,6 @@
 {
   "name": "Ford Pass",
-  "version": "0.2",
+  "version": "0.2.1",
   "slug": "ford_pass",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "Publishes Ford Pass Values to MQTT",
