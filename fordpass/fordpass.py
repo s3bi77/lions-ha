@@ -1,5 +1,6 @@
 import requests
 import os
+import time
 
 
 
@@ -13,16 +14,12 @@ mqttpassword = os.environ.get('mqttpassword')
 
 
 
-def do_something():
+def loop():
     while True:
         print("bluppstart")
         time.sleep(5)
 
-def run():
-    with daemon.DaemonContext():
-        do_something()
-
 if __name__ == '__main__':
     print("bluppstart")
-    run()
+    loop()
     print("bluppstop")
